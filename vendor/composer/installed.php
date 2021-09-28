@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '347b36f907a3cfeaaf00d4b3a9b7dddbb147b945',
         'name' => 'keyneskanno/buscador-cursos',
         'dev' => true,
     ),
@@ -47,12 +47,12 @@
             'dev_requirement' => false,
         ),
         'keyneskanno/buscador-cursos' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '347b36f907a3cfeaaf00d4b3a9b7dddbb147b945',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
@@ -380,6 +380,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+            'dev_requirement' => true,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => 'ffced0d2c8fa8e6cdc4d695a743271fab6c38625',
             'dev_requirement' => true,
         ),
         'symfony/css-selector' => array(

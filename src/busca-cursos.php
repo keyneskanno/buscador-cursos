@@ -13,11 +13,6 @@ $crawler = new Crawler();
 $crawler->addHtmlContent($html);
 $cursos = $crawler->filter('div.field-name-field-linha-fina');
 
-
-
-foreach($cursos as $curso){
+foreach ($cursos as $curso){
     echo $curso->textContent . PHP_EOL;
-    
-    
 }
-
