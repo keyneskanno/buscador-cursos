@@ -1,0 +1,34 @@
+{
+    "name": "keyneskanno/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Keyneskanno\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keynes Kanno",
+            "email": "keyneskanno@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.3"
+    },
+    "autoload":{
+        "psr-4": {
+            "Keynes\\BuscadorDeCursos\\": "src/"
+
+        }
+            
+        
+           
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
